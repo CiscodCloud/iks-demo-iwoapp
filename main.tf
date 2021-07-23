@@ -2,7 +2,7 @@
 data "terraform_remote_state" "iksws" {
   backend = "remote"
   config = {
-    organization = "CiscoDevNet"
+    organization = "dCloud"
     workspaces = {
       name = var.ikswsname 
     }
