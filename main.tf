@@ -18,7 +18,7 @@ resource helm_release iwok8scollector {
   namespace = "default"
 #  namespace = "iwo-collector"
 #  repository = "https://prathjan.github.io/helm-chart"
-  chart = "https://github.com/CiscodCloud/helm_chart/raw/main/iwo-k8s-collector-v1.0.1.tgz"
+  chart = "https://prathjan.github.io/helm-chart/iwok8scollector-0.6.2.tgz"
 
   set {
     name  = "iwoServerVersion"
